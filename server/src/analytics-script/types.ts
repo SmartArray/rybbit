@@ -79,3 +79,10 @@ export interface SessionReplayBatch {
   };
   apiKey?: string;
 }
+
+export interface ErrorProperties {
+  filename?: string;
+  lineno?: number | string;
+  colno?: number | string;
+  [key: string]: any;
+}
