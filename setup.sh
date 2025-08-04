@@ -52,7 +52,7 @@ while [[ "$#" -gt 0 ]]; do
     --no-webserver) 
       USE_WEBSERVER="false"
       shift
-      ;;1
+      ;;
     --insecure) 
       GENERATE_PASSWORDS="false"
       shift
