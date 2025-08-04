@@ -27,6 +27,7 @@ declare global {
     window.rybbit = {
       pageview: () => {},
       event: () => {},
+      error: () => {},
       trackOutbound: () => {},
       identify: () => {},
       clearUserId: () => {},
