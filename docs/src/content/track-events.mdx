@@ -90,7 +90,7 @@ if (currentUserId) {
 
 ### `window.rybbit.error(error, properties)`
 
-Returns the currently set user ID, or `null` if none is set.
+Tracks a custom error with optional properties.
 
 *   `error` (instanceof Error): The error class
 *   `properties` (Object, Optional): An object containing custom data (max 2KB characters). Only strings and numbers are allowed in this object. Specifically `filename`, `lineno`, `colno` and additional arbitrary keys can be passed.
